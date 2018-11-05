@@ -1,0 +1,8 @@
+{% extends 'layout/layout.twig' %}
+{% block content %}
+    <ul>
+    {% for v in data %}
+        <li>{{ v.stud_no }} {{ v.name }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
